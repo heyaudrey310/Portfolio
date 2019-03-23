@@ -121,11 +121,18 @@ footer,
 
 }
 .main-section {
-  float: left;
+  /* float: left; */
   box-sizing: border-box;
-  margin: auto;
-  padding-left: 35px;
+  margin: 0;
+  /* padding-left: 35px; */
   /* padding-top: 20px; */
+}
+.container{
+  width:100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+
 }
 .contact-container  {
   border: whitesmoke;
