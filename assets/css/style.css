@@ -19,6 +19,7 @@ body {
 }
   body, html {
     height: 100%;
+    margin: 0;
   }
  .wrapper {
   height: auto;
@@ -112,6 +113,16 @@ img {
 .container{
   border-style: solid;
   border-color: white;
+}
+.image-row  {
+  content: "";
+  clear: both;
+  display: table;
+}
+.image-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 footer  {
