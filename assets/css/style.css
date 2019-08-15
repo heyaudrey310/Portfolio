@@ -120,6 +120,7 @@
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: #4aaaa5;
+    
   }
   
   h1 {
@@ -136,7 +137,8 @@
   
   h2,
   h3 {
-    font-size: 22px;
+    font-size: 20px;
+  
   }
   
   /* header */
