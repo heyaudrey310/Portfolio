@@ -29,7 +29,7 @@
     width: 100wh;
     height: 100%;
     color: #777777;
-    background: linear-gradient(-45deg, #4aaaa5, #00a8b5, #83cbb5, #9fd9d0, #fce4b8);
+    background: linear-gradient(-45deg, #4aaaa5, #00a8b5, #efde76, #9fd9d0, #fce4b8);
     background-size: 400% 400%;
     -webkit-animation: Gradient 12s ease infinite;
     -moz-animation: Gradient 12s ease infinite;
@@ -117,7 +117,7 @@
   h2,
   h3 {
     /* Typography */
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-weight: 700;
     color: #4aaaa5;
     
@@ -152,7 +152,7 @@
   
     /* Positioning */
     margin: 0 0 30px;
-    overflow: auto;
+    /* overflow: auto; */
   
     /* Typography */
     color: #fff;
@@ -166,20 +166,20 @@
     float: left;
   
     /* Box-model */
-    width: 250px;
-    height: 55px;
+    width: 220px;
+    /* height: 55px; */
   
     /* Typography */
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 25px;
     font-weight: 500;
     line-height: 75px;
-    color: #fff;
+    color: #4aaaa5;
     text-align: center;
     text-decoration: none;
   
     /* Visual */
-    background: #4aaaa5;
+    /* background: #4aaaa5; */
   }
   
   nav {
@@ -307,6 +307,12 @@
   
   main {
     padding-top: 130px;
+  }
+
+  img {
+    float: left;
+    border-radius: 15rem;
+    margin-right: 5%;
   }
   
   .main-section {
